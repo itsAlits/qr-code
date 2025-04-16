@@ -42,7 +42,7 @@ export default function Page() {
       <nav className="flex justify-between h-20 items-center">
         <div>
           <img
-            src="https://www.pngarts.com/files/11/Google-Logo-PNG-Download-Image.png"
+            src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/133987017/original/c43bd711b70fab6470ab7c648126b30916c975ad/draw-amazing-doodle-art-cartoon-on-your-logo.jpg"
             alt="Logo"
             className="h-14"
           />

@@ -7,9 +7,9 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center h-screen">
       <div>
         <img
-          src="https://www.pngarts.com/files/11/Google-Logo-PNG-Download-Image.png"
+          src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/133987017/original/c43bd711b70fab6470ab7c648126b30916c975ad/draw-amazing-doodle-art-cartoon-on-your-logo.jpg"
           alt="Logo"
-          className="h-32 mb-6"
+          className="h-40 mb-6"
         />
       </div>
       <p className="text-center">

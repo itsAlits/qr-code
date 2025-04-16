@@ -48,7 +48,7 @@ export default function Page() {
         <nav className="flex justify-between h-20 items-center container mx-auto">
           <div>
             <img
-              src="https://www.pngarts.com/files/11/Google-Logo-PNG-Download-Image.png"
+              src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/133987017/original/c43bd711b70fab6470ab7c648126b30916c975ad/draw-amazing-doodle-art-cartoon-on-your-logo.jpg"
               alt="Logo"
               className="h-14"
             />
@@ -73,7 +73,7 @@ export default function Page() {
         ) : (
           <>
             <h1 className="text-2xl">Hi, {user?.name || "User"}</h1>
-            <div className="mt-6 grid grid-cols-3 gap-6">
+            <div className="mt-6 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-6">
               <CourseCard
                 title="Matematika"
                 imgKecil="https://media.istockphoto.com/id/539025928/id/vektor/latar-belakang-ikon-matematika.jpg?s=612x612&w=0&k=20&c=4zqwyg6-gAVQr_fTi2TbFBKNfWkwOV7Qb_wcFunmyK4="
@@ -91,6 +91,12 @@ export default function Page() {
                 imgKecil="https://media.istockphoto.com/id/615915320/id/vektor/ilustrasi-fisika.jpg?s=612x612&w=0&k=20&c=84Gw-MD1qUyYr7zM12vjxfbUP6T2zhMlKn_zIyk_vDw="
                 imgBesar="https://pochemychki.com.ua/wp-content/uploads/2025/01/1-1-46.webp"
                 desc="Fisika Kelas 12 Mipa 6"
+              />
+              <CourseCard
+                title="Biology"
+                imgKecil="https://rimbakita.com/wp-content/uploads/2020/09/ilmu-biologi.jpg"
+                imgBesar="https://asset.kompas.com/crops/s07EkvALKwaSxGC9cOGTBt_1s94=/0x220:1667x1332/750x500/data/photo/2022/01/06/61d6a0a3df1df.jpg"
+                desc="Biology Kelas 12 Mipa 6"
               />
             </div>
           </>
