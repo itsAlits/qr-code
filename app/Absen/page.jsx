@@ -48,7 +48,7 @@ export default function Page() {
           />
         </div>
         <div className="flex items-center gap-10">
-          <a href="/Absensi" className="text-lg text-primary underline">
+          <a href="/Absensi" className="text-md text-primary underline">
             Absensi
           </a>
           {loading ? (
@@ -56,7 +56,7 @@ export default function Page() {
           ) : error ? (
             <p>Error: {error}</p>
           ) : (
-            <h1 className="text-lg">Hi, {user?.name || "User"}</h1>
+            <h1 className="text-md">Hi, {user?.name || "User"}</h1>
           )}
         </div>
       </nav>

@@ -178,15 +178,23 @@ export default function page() {
                   <p className="text-gray-600 mb-4">
                     Simpan QR Code ini untuk proses absen nantinya
                   </p>
-                  <button
-                    onClick={() => {
-                      setShowQR(false);
-                      setFormData({ name: "", email: "", password: "" });
-                    }}
-                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                  >
-                    Daftar Akun Lainnya
-                  </button>
+                  <div className="space-x-2">
+                    <button
+                      onClick={() => {
+                        setShowQR(false);
+                        setFormData({ name: "", email: "", password: "" });
+                      }}
+                      className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Daftar Akun Lainnya
+                    </button>
+                    <a
+                      href="/Login"
+                      className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Login Sekarang
+                    </a>
+                  </div>
                 </div>
               )}
             </div>
